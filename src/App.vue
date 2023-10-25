@@ -68,7 +68,7 @@ body
     .video(:class="{ 're-shape': reShape }") video
       span(@click="toggleVideo"): font-awesome-icon(:icon="showFrame ? 'fa-solid fa-pause' : 'fa-solid fa-play'")
     .overlay.container2
-        video(ref="myVideo" src="vids/video.mp4" volume="0.1" :class="{ show: showFrame, hide: !showFrame }") Your browser does not support this video try another browser.
+        video(ref="myVideo" src="./assets/vids/video.mp4" volume="0.1" :class="{ show: showFrame, hide: !showFrame }") Your browser does not support this video try another browser.
 
     .iconses
       a(:href="iconsUrl[0].tw" target="_blank" class="icon"): font-awesome-icon(icon='fa-brands fa-twitter' :size= 'iconeSize')
